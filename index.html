@@ -1,236 +1,308 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <div class="second-nav">
-      <div class="nav-buttons close-button">Close</div>
-      <div class="nav-buttons home-container"><a href="#home">Home</a></div>
-      <div class="nav-buttons about-me-container">
-        <a href="#about-me">About</a>
-      </div>
-      <div class="nav-buttons skills-container">
-        <a href="#skills">Skills</a>
-      </div>
-      <div class="nav-buttons projects-container">
-        <a href="#projects">Projects</a>
-      </div>
-      <div class="nav-buttons contact-container">
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-    <nav id="navigation-bar">
-      <div class="container">
-        <div class="row">
-          <div class="col-6 col-sm-4">
-            <h2 id="logo">FrancisGe.</h2>
-          </div>
-          <div class="col-6 col-sm-8 d-flex align-items-end">
-            <div id="ul-container">
-              <ul id="list-container">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-            <div id="list-button-container">
-              <button id="list-button">
-                <div class="button-div"></div>
-                <div class="button-div"></div>
-                <div class="button-div"></div>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <section id="home">
-      <div class="container">
-        <div class="row gap-5 gap-xl-0">
-          <div
-            class="col-12 col-xl-6 d-flex flex-column justify-content-center"
-          >
-            <h1 id="intro">
-              Hello, I am <span id="my-name">Francis Ge</span> <br />a Website
-              Developer.
-            </h1>
-            <p id="intro-para">
-              Welcome to my personal website! 🌟 I’m thrilled to have you here.
-              As a 2nd-year BSIT student, I’m excited to share my journey and
-              passion for technology. Feel free to explore and connect—let’s
-              create and grow together!
-            </p>
-          </div>
-          <div class="col-12 col-xl-6 d-flex justify-content-center">
-            <div id="foto-container">
-              <img
-                id="foto"
-                src="./fotos/foto of me mirror shot.jpg"
-                alt="Spongebob"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="about-me">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2 class="header">About me!</h2>
-            <p class="paragraph one">
-              Hi! I’m a second-year BS Information Technology student with a
-              deep passion for technology, problem-solving, and continuous
-              learning. I thrive on exploring the ever-evolving world of IT,
-              delving into areas like programming, web development, and systems
-              design. My goal is to create innovative solutions that not only
-              solve problems but also improve lives. With each project I take
-              on, I aim to grow my skills, expand my knowledge, and push the
-              boundaries of what I can achieve in the tech world.
-            </p>
-            <p class="paragraph two">
-              Outside academics, I love unwinding through video games, playing
-              chess, and soaking up the sun at the beach. These activities keep
-              me balanced, inspired, and ready to tackle new challenges. Whether
-              it’s through coding, connecting with like-minded individuals, or
-              simply sharing ideas, I’m always excited to collaborate and grow.
-              Let’s connect and create something amazing together!
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="skills">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2 class="header">Skills!</h2>
-            <div id="skills-icon-container">
-              <img
-                class="skills-icon"
-                src="./fotos/html 5 icon 1.png"
-                alt="HTML icon"
-              />
-              <img
-                class="skills-icon"
-                src="./fotos/css icon 1.png"
-                alt="CSS icon"
-              />
-              <img
-                class="skills-icon"
-                src="./fotos/javascript icon 1.png"
-                alt="JavaScript icon"
-              />
-              <img
-                class="skills-icon"
-                src="./fotos/c language icon 1.png"
-                alt="C language icon"
-              />
-              <img
-                class="skills-icon"
-                src="./fotos/figma icon 1.png"
-                alt="Figma icon"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="projects">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2 class="header project-header">Projects!</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-lg-6">
-            <img
-              class="project-foto"
-              src="./fotos/Screenshot 2025-01-25 205531 1.png"
-              alt="E-commerce project"
-            />
-          </div>
-          <div class="col-12 col-lg-6">
-            <h3 class="project-title">E-commerce Website</h3>
-            <p class="paragraph three">
-              Developed a simple e-commerce website using HTML, CSS, and
-              JavaScript. The project includes a clean, responsive design,
-              product listings with dynamic interactions, and a basic cart
-              functionality. It demonstrates foundational web development skills
-              and a focus on user-friendly interfaces.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-lg-6">
-            <img
-              class="project-foto"
-              src="./fotos/Screenshot 2025-01-25 210811 1.png"
-              alt="Customer Management Project"
-            />
-          </div>
-          <div class="col-12 col-lg-6">
-            <h3 class="project-title">Customer Management System in C</h3>
-            <p class="paragraph four">
-              A simple program that I made in C for my final project. It’s
-              purpose is to implement basic data structures and algorithms that
-              we covered during the semester.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-6 mb-5">
-            <h1 id="outro">
-              Interested to know more? <span id="my-name">Let's Talk!</span>🌟
-            </h1>
-            <a href="https://github.com/frncsge" target="_blank"
-              ><img src="./fotos/icongit.png" alt="github"
-            /></a>
-          </div>
-          <div class="col-12 col-lg-6">
-            <!--Dile pa ko kamao mag gamit HTML form kay di pa ko kahibaw unsaon pag store ang message ahahahahah-->
-            <div id="form-container">
-              <input class="input name" type="text" placeholder="Name" />
-              <input
-                class="input email"
-                type="text"
-                placeholder="Email Address"
-              />
-              <textarea
-                name="message"
-                class="message"
-                placeholder="Message"
-              ></textarea>
-              <input class="submit" type="Submit" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <script src="./index.js"></script>
-  </body>
-</html>
+#navigation-bar {
+  background-color: #78b3ce;
+  padding-top: 1.5vw;
+}
+
+.second-nav {
+  height: 100vh;
+  width: 30vw;
+  max-width: 200px;
+  min-width: 150px;
+  background-color: #fbf8ef;
+  box-shadow: -5px 0px 10px -5px rgb(34, 34, 34);
+  position: fixed;
+  right: 0;
+  display: none;
+}
+
+#logo {
+  margin: 0;
+  font-family: "Inter", serif;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  color: #ff884e;
+  font-size: clamp(20px, 1.5vw, 30px);
+}
+
+#ul-container {
+  width: 100%;
+}
+
+#list-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+#list-container > li {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  color: #fbf8ef;
+}
+
+li > a {
+  text-decoration: none;
+  color: #fbf8ef;
+  font-size: 15px;
+}
+
+li > a:hover {
+  color: #ff884e;
+}
+
+#list-button-container {
+  display: none;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  background-color: #78b3ce;
+  height: 100vh;
+}
+
+#intro {
+  font-family: "Inter", serif;
+  font-weight: bolder;
+  color: #fbf8ef;
+  font-size: clamp(35px, 4vw, 60px);
+}
+
+#my-name {
+  color: #ff884e;
+}
+
+#intro-para {
+  font-family: "Inter", serif;
+  font-weight: 200;
+  font-size: clamp(14px, 1vw, 18px);
+  color: #fbf8ef;
+}
+
+#foto {
+  max-width: 550px;
+  width: 35vw;
+  min-width: 280px;
+  border-radius: 50%;
+}
+
+#about-me {
+  padding-top: 2.8vw;
+  background-color: #fbf8ef;
+}
+
+.header {
+  font-family: "Inter", serif;
+  font-weight: bolder;
+  padding-bottom: 1vw;
+  color: #ff884e;
+  font-size: clamp(20px, 1.5vw, 30px);
+}
+
+.project-header {
+  margin-bottom: 2vw;
+}
+
+.paragraph {
+  font-family: "Inter", serif;
+  font-weight: 200;
+  font-size: clamp(14px, 1vw, 18px);
+}
+
+#skills {
+  padding-top: 3.5vw;
+  background-color: #fbf8ef;
+}
+
+#skills-icon-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills-icon {
+  max-width: 140px;
+  max-height: 140px;
+  width: auto;
+  height: auto;
+  padding-top: 1vw;
+}
+
+#projects {
+  padding-top: 5vw;
+  background: linear-gradient(to bottom, #fbf8ef 6%, #c9e6f0 32%);
+}
+
+.project-title {
+  font-family: "Inter", serif;
+  font-size: clamp(17px, 1.2vw, 27px);
+  margin-bottom: 1.5vw;
+}
+
+.three,
+.four {
+  margin-bottom: 8vw;
+}
+
+.project-foto {
+  width: 100%;
+  margin-bottom: 5vw;
+}
+
+#contact {
+  background-color: #78b3ce;
+  padding-top: 5.5vw;
+  padding-bottom: 6.5vw;
+}
+
+#outro {
+  font-family: "Inter", serif;
+  font-weight: bolder;
+  color: #fbf8ef;
+  font-size: clamp(35px, 4vw, 60px);
+}
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.name,
+.email {
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.message {
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 100px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+
+.submit {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fbf8ef;
+  background-color: #ff884e;
+  margin-top: 10px;
+}
+
+.submit:hover {
+  background-color: #fa7b3b;
+}
+
+.nav-buttons {
+  text-align: center;
+  text-decoration: none;
+  color: #fbf8ef;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.nav-buttons > a {
+  text-decoration: none;
+  color: #78b3ce;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-buttons:hover {
+  background-color: #eeebe4;
+}
+
+.close-button {
+  color: #ff884e;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+  outline: none; /* Removes the default focus outline */
+  border: none; /* Ensures no border appears */
+  box-shadow: none; /* Some browsers add a shadow */
+}
+@media (max-width: 1199px) {
+  .skills-icon {
+    max-width: 120px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .skills-icon {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  #ul-container {
+    display: none;
+  }
+  #list-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+
+  #list-button {
+    /*Mao ni ag button sa nav if mo gamay ang screen*/
+    border: none;
+    background: none;
+    padding-right: 0px;
+    margin-bottom: 3px;
+  }
+
+  #list-button:hover > .button-div {
+    background-color: #ff884e;
+  }
+
+  .button-div {
+    width: 23px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+    background-color: #fbf8ef;
+    border-radius: 3px;
+  }
+
+  .skills-icon {
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+  }
+
+  .header {
+    margin-top: 7vw;
+  }
+}
+
+@media (max-width: 327px) {
+  #skills-icon-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
 
