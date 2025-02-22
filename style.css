@@ -60,7 +60,8 @@ li > a:hover {
   display: flex;
   align-items: center;
   background-color: #78b3ce;
-  height: 100vh;
+  padding-top: 8vw;
+  padding-bottom: 10vw;
 }
 
 #intro {
