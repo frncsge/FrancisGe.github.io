@@ -67,7 +67,7 @@ li > a:hover {
   font-family: "Inter", serif;
   font-weight: bolder;
   color: #fbf8ef;
-  font-size: clamp(40px, 4vw, 60px);
+  font-size: clamp(35px, 4vw, 60px);
 }
 
 #my-name {
@@ -83,8 +83,8 @@ li > a:hover {
 
 #foto {
   max-width: 550px;
-  width: 40vw;
-  min-width: 300px;
+  width: 30vw;
+  min-width: 280px;
   border-radius: 50%;
 }
 
