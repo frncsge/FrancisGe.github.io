@@ -1,73 +1,15 @@
-#navigation-bar {
-  background-color: #78b3ce;
-  padding-top: 1.5vw;
-  padding-bottom: 1.5vw;
-}
-
-.second-nav {
-  height: 100vh;
-  width: 30vw;
-  max-width: 200px;
-  min-width: 150px;
-  background-color: #78b3ce;
-  box-shadow: -5px 0px 10px -5px rgb(34, 34, 34);
-  position: fixed;
-  right: 0;
-  display: none;
-}
-
-#logo {
-  margin: 0;
-  font-family: "Inter", serif;
-  font-weight: bolder;
-  letter-spacing: -1px;
-  color: #ff884e;
-  font-size: clamp(20px, 1.5vw, 30px);
-}
-
-#ul-container {
-  width: 100%;
-}
-
-#list-container {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  margin-bottom: 3px;
-}
-
-#list-container > li {
-  font-family: "Inter", serif;
-  font-weight: 500;
-  color: #fbf8ef;
-}
-
-li > a {
-  text-decoration: none;
-  color: #fbf8ef;
-  font-size: 15px;
-}
-
-li > a:hover {
-  color: #ff884e;
-}
-
-#list-button-container {
-  display: none;
-}
-
 #home {
+  display: flex;
+  align-items: center;
   background-color: #78b3ce;
-  padding-top: 5.5vw;
-  padding-bottom: 6.5vw;
+  height: 100vh;
 }
 
 #intro {
   font-family: "Inter", serif;
   font-weight: bolder;
   color: #fbf8ef;
-  font-size: clamp(35px, 4vw, 60px);
+  font-size: clamp(40px, 4vw, 60px);
 }
 
 #my-name {
@@ -82,9 +24,9 @@ li > a:hover {
 }
 
 #foto {
-  max-width: 600px;
-  width: 30vw;
-  min-width: 280px;
+  max-width: 550px;
+  width: 40vw;
+  min-width: 300px;
   border-radius: 50%;
 }
 
@@ -214,12 +156,13 @@ li > a:hover {
 
 .nav-buttons > a {
   text-decoration: none;
-  color: #fbf8ef;
+  color: #78b3ce;
   font-size: 15px;
+  font-weight: 500;
 }
 
 .nav-buttons:hover {
-  background-color: #67adce;
+  background-color: #eeebe4;
 }
 
 .close-button {
@@ -234,7 +177,6 @@ textarea:focus {
   border: none; /* Ensures no border appears */
   box-shadow: none; /* Some browsers add a shadow */
 }
-
 @media (max-width: 1199px) {
   .skills-icon {
     max-width: 120px;
